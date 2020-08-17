@@ -1,7 +1,4 @@
-# perceptron
-The Perceptron Unit
-
-<h1 style="color:#02FF02">The Perceptron Unit</h1>
+<h1>The Perceptron Unit</h1>
     <p align="justify">
         This page serves as a learning tool to assist in understanding a single perceptron unit and its applications,
         outside of multilayered neural networks, with C++ and Python.
