@@ -7,9 +7,8 @@
     This perceptron uses a step function (1), where τ is called the threshold, to classify linearly seperable data or make simple decisions.
     The function can be rewritten so that the inequalities are set to zero (2), where the bias b = -τ.
 </p>
-<p align="center>
-    ![step function](photos/step_function.png)
-</p>
+
+![step function](photos/step_function.png#center)
 
 ![step function](photos/step_function_2.png)
 
