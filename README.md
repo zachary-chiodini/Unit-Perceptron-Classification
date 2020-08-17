@@ -23,9 +23,9 @@
     The input vector contains the data to be interpreted by the perceptron.
     The network vector contains the weight or coefficient for each input vector component.
 </p>
-
-![step function](step_function3.png)
-
+<p align="center">
+    <img src="photos/step_function_3.png">
+</p>
 <p align="justify">
     To make things more compact, we can increase the size of both vectors to n + 1, 
     force the first component of the input vector to be -1
@@ -34,9 +34,9 @@
     Alternatively, we can force the first component of the input vector to be 1
     and the first component of the network vector to be the bias b (4).
 </p>
-
-![step function](step_function4.png)
-
+<p align="center">
+    <img src="photos/step_function_4.png">
+</p>
 <h1>The Perceptron Training Algorithm and Classification</h1>
 <p align="justify">
     The perceptron training algorithm enables the perceptron to compute the correct network, or vector of weights, given a training sample of data,
@@ -50,9 +50,9 @@
     In 2 dimensions, given an input vector ( 1, x, y ) and a network vector ( b, ω1, ω2 ), the dot product is b + ω1x + ω2y.
     Replacing the inequalities with an equals sign and solving for y creates a line (5).
 </p>
-
-![line](line.png)
-
+<p align="center">
+    <img src="photos/line.png">
+</p>
 <p align="justify">
         Therefore, the perceptron can only classify data that can be separated by this line.
         This is also true for n dimensions in which the line is a hyperplane.
@@ -60,16 +60,15 @@
 <p align="justify">
     The training algorithm is as follows:
 </p>
-
-![training algorithm](training_algorithm.png)
-
+<p align="center">
+    <img src="photos/training_algorithm.png">
+</p>
 <p align="justify">
     This algorithm is slighly different than other perceptron learning algorithms in that the output vector
     is conditioned to exactly equal the target vector before stopping the loop.
     This is always possible with the appropriate weights, as long as the data is linearly separable.
     If the data is not linearly separable, an infinite loop may ensue.
 </p>
-
 <p align="justify">
     To demonstrate, the "train_and_test.cpp" module can be run to train and test the perceptron to classify clusters in the Iris flower data set.
     The data set contains measurements of iris flowers of three different species in centimeters.
@@ -79,9 +78,9 @@
     The algorithm goes through the data multiple times. The line stops updating when the output equals the target values.
     After the training algorithm completes, everything to the left of the line gives an output of 1, and everything to the right gives an output of 0.
 </p>
-
-![perceptron learning](perceptron_learning.png)
-
+<p align="center">
+    <img src="photos/perceptron_learning.png">
+</p>
 <p align="justify">
     The idea is that the final weights used to construct the line that separates the iris setosa species from the others
     can now be applied to a new sepal and petal length measurement of an unknown iris species to classify it.
