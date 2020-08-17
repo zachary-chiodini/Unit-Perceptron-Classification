@@ -60,20 +60,26 @@
 <p align="justify">
     The training algorithm is as follows:
 </p>
+<hr>
 <p align="center">
     <img src="photos/training_algorithm.png">
 </p>
+<hr>
 <p align="justify">
     This algorithm is slighly different than other perceptron learning algorithms in that the output vector
     is conditioned to exactly equal the target vector before stopping the loop.
     This is always possible with the appropriate weights, as long as the data is linearly separable.
     If the data is not linearly separable, an infinite loop may ensue.
 </p>
+<h1>Try It</h1>
 <p align="justify">
     To demonstrate, the "train_and_test.cpp" module can be run to train and test the perceptron to classify clusters in the Iris flower data set.
     The data set contains measurements of iris flowers of three different species in centimeters.
     The module trains the perceptron to differentiate between the iris setosa and the others (iris virginica and iris versicolor)
-    from sepal and petal length measurements. The training process was performed on the complete data set and shown below.
+    from sepal and petal length measurements.
+</p>
+<p align="justify">
+    The training process was performed on the complete data set and shown below.
     The aforementioned line is updated with the updated weights each time the for loop completes.
     The algorithm goes through the data multiple times. The line stops updating when the output equals the target values.
     After the training algorithm completes, everything to the left of the line gives an output of 1, and everything to the right gives an output of 0.
