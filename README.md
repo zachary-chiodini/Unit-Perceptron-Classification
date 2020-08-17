@@ -8,13 +8,13 @@
     The function can be rewritten so that the inequalities are set to zero (2), where the bias b = -τ.
 </p>
 <p align="center">
-    <img src="photos/step_function.png"/>
+    <img src="photos/step_function.png">
 </p>
 <p align="center">
-    <img src="photos/step_function_2.png"/>
+    <img src="photos/step_function_2.png">
 </p>
 <p align="center">
-    <img src="step_graph.png"/>
+    <img src="step_graph.png">
 </p>
 <p align="justify">
     The function is hiding some important details. 
