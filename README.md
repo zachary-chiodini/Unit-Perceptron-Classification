@@ -8,7 +8,7 @@
     The function can be rewritten so that the inequalities are set to zero (2), where the bias b = -τ.
 </p>
 
-![step function](photos/step_function.png#center)
+<img align="center" src="photos/step_function.png">
 
 ![step function](photos/step_function_2.png)
 
