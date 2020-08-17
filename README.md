@@ -11,7 +11,7 @@
     <img src="photos/step_function.png"/>
 </p>
 <p align="center">
-    <img" src="photos/step_function_2.png"/>
+    <img src="photos/step_function_2.png"/>
 </p>
 <p align="center">
     <img src="step_graph.png"/>
