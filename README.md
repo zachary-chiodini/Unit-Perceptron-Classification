@@ -9,7 +9,7 @@
 </p>
 
 ![step function](photos/step_function.png)
-![step function](photos/step_function2.png)
+![step function](photos/step_function_2.png)
 ![step function](photos/step_graph.png)
 
 <p align="justify">
