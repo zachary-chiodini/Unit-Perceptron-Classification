@@ -10,11 +10,12 @@
 <p align="center">
     <img align="center" src="photos/step_function.png"/>
 </p>
-
-![step function](photos/step_function_2.png)
-
-![step function](photos/step_graph.png)
-
+<p align="center">
+    <img align="center" src="photos/step_function_2.png"/>
+</p>
+<p align="center">
+    <img align="center" src="step_graph.png"/>
+</p>
 <p align="justify">
     The function is hiding some important details. 
     The input for the perceptron is a weighted sum, which is given by the dot product of two vectors.
