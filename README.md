@@ -14,7 +14,7 @@
     <img src="photos/step_function_2.png">
 </p>
 <p align="center">
-    <img src="step_graph.png">
+    <img src="photos/step_graph.png">
 </p>
 <p align="justify">
     The function is hiding some important details. 
