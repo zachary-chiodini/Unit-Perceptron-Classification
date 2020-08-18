@@ -34,7 +34,7 @@ void Network::train(
     */
     bias = b;
     // generate random weights
-    std::random_device random; // int random number generator
+    std::random_device random;
     std::uniform_real_distribution<float> uniform(-0.5, 0.5);
     std::vector<float> w;
     for (int i = 0; i < x[0].size(); ++i) {
