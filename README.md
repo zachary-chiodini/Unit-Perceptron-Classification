@@ -79,7 +79,7 @@
 </p>
 <h1>Try It</h1>
 <p align="justify">
-    To demonstrate, the "main.cpp" program can be run to train and test the perceptron to classify clusters in the Iris flower data set.
+    To demonstrate, the "perceptron.exe" program can be run to train and test the perceptron to classify clusters in the Iris flower data set.
     The data set contains measurements of iris flowers of three different species in centimeters.
     The program trains the perceptron on to differentiate between the iris setosa and the others (iris virginica and iris versicolor)
     from sepal and petal length measurements after taking a user defined sample size from the data set.
