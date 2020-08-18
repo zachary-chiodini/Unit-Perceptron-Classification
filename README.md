@@ -9,7 +9,7 @@
 </p>
 <hr>
 <p align="center">
-    <img src="photos/step_function.png", style="background:grey">
+    <img src="photos/step_function.png", style="background:black">
 </p>
 <hr>
 <p align="center">
