@@ -9,9 +9,7 @@
 </p>
 <hr>
 <p align="center">
-    <math>
-        f(x) = 
-    </math>
+    <img src="photos/step_function.png", style="background:grey">
 </p>
 <hr>
 <p align="center">
