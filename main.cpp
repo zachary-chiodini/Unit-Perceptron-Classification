@@ -62,9 +62,8 @@ int main() {
     network.train(samples, targets, 1, 0.01);
     // combine setosa and others into one data set
     std::vector<std::vector<float>> data;
-    data.reserve(setosa.size() + others.size());
     data.insert(data.begin(), setosa.begin(), setosa.end());
-    data.insert(data.begin() + setosa.size() - 1, others.begin(), others.end());
+    data.insert(data.end(), others.begin(), others.end());
     // test perceptron on all data
     network.test(data);
     // show computed network and output
