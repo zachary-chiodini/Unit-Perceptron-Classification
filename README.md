@@ -8,6 +8,7 @@
     The function can be rewritten so that the inequalities are set to zero (2), where the bias b = -τ.
 </p>
 <hr>
+$$ f(x)=$$
 <p align="center">
     <img src="photos/step_function.png", style="background-color:grey">
 </p>
