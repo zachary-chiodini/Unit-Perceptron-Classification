@@ -79,13 +79,16 @@
 </p>
 <h1>Try It</h1>
 <p align="justify">
-    To demonstrate, the "train_and_test.cpp" module can be run to train and test the perceptron to classify clusters in the Iris flower data set.
+    To demonstrate, the "main.cpp" program can be run to train and test the perceptron to classify clusters in the Iris flower data set.
     The data set contains measurements of iris flowers of three different species in centimeters.
-    The module trains the perceptron to differentiate between the iris setosa and the others (iris virginica and iris versicolor)
-    from sepal and petal length measurements.
+    The program trains the perceptron on to differentiate between the iris setosa and the others (iris virginica and iris versicolor)
+    from sepal and petal length measurements after taking a user defined sample size from the data set.
+    The perceptron is then tested on the complete data set to classify all of the data.
+    Setosa data should ouput ones, while the other data should output zeros. 
+    The network changes with varying accuracy each time you run the program, approaching 100% with larger sample sizes. 
 </p>
 <p align="justify">
-    The training process was performed on the complete data set and shown below.
+    The training process was performed on the complete Iris flower data set and shown below.
     The aforementioned line is updated with the updated weights each time the for loop completes.
     The algorithm goes through the data multiple times. The line stops updating when the output equals the target values.
     After the training algorithm completes, everything to the left of the line gives an output of 1, and everything to the right gives an output of 0.
