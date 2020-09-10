@@ -1,6 +1,6 @@
 <h1>The Perceptron Unit</h1>
 <p align="justify">
-    This is a perceptron unit with training algorithm written in C++
+    This is a perceptron unit with training algorithm for classification of linearly separable data written in C++
 </p>
 <h1>Mathematical Model</h1>
 <p align="justify">
