@@ -45,6 +45,7 @@
 <p align="justify">
     The perceptron training algorithm enables the perceptron to compute the correct network, or vector of weights, given a training sample of data,
     which contains input vectors and their expected outputs or target values.
+    (The network is initially given random values between -0.5 and 0.5 from a uniform distribution before training).
     If a large enough representative sample of input vectors are in the training data set,
     the network weights computed by the training algorithm can then be used to classify all the data from which the training set was sampled,
     as long as the data is linearly separable.
