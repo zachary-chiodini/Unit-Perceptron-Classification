@@ -1,4 +1,4 @@
-<h1>The Perceptron Unit</h1>
+<h1>The Perceptron Unit for Classification</h1>
 <p align="justify">
     This is a perceptron unit with training algorithm for the classification of linearly separable data written in C++
 </p>
